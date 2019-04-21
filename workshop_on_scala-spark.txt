@@ -1,0 +1,81 @@
+
+---------------------------------------------------
+WorkShop on  Scala - Spark Sessions 
+---------------------------------------------------
+
+Keypoints about Workshop:
+
+
+1) Installation and Usages :
+      [For Windows Users]
+      Linux based Docker image will be given for Spark & Scala for Practicing.you need to interact with
+      Docker using putty.
+      [For Mac Users & Linux Users] 
+      Installation instructions will be provided to install Scala & Spark on your machines.
+
+2) Exercises will be available at the end of every Scala & Spark Topic, you can download from 
+   Github.  
+
+3) Topics discussed are as follows:
+
+Mind Prep for Big Data:
+
+      1) The Big Data Problem 
+      2) Solution 
+      3) Difficulty with before solutions 
+      4) Why Scala & Why Spark ?
+
+
+a) Working with Scala 
+    1) using REPL [Scala Shell] & Specific Scala shell Commands Usage.
+    2) understanding basic constructs of scala 
+            a) Val & Var and Data types.
+            b) Functions 
+            b) Flow Control 
+            c) Few Data Structures
+            d) pattern matching 
+    3) Understanding object oriented programming in scala 
+             a) class 
+             b) trait 
+             c) objects 
+             d) basic testing 
+    4) Understanding Functional Programming in scala 
+             a) Higher Order Functions 
+             b) Anonymous functions & Recursion
+             c) in-built functions 
+    5) Implicits
+    6) Reflections, Companion classes in scala.
+
+For Extreme Scala Learners/Enthusiasts: 
+    Difficult Scala coding exercises will be given as add on to practice more....
+
+
+b) Working with Spark Core, Spark Structured Streaming & Spark SQL. 
+     1) Spark Architecture:
+               a) Deployment mode 
+               b) Caching persist
+               c) Caching unpersist 
+               d) Storage Levels
+               e) Partitioning 
+                     1) Read from source Partition
+                     2) Repartition & Coaleasce of Shuffle partition 
+               f) Performance & Catalyst & Bottle necks
+     2) RDD Low Level API 
+               a) RDD & Paired-RDD 
+               b) Transformations [for example: map, flatmap, reduceByKey, groupByKey] & Actions  of RDD & Paired-RDD.
+               c) Accumulator & Accumulator2 
+               d) Joins 
+               e) RDD to Dataframe Conversions 
+     3) Spark SQL DF & DS 
+                a) Dataframe vs Dataset 
+                b) Reading & Writing 
+                c) Wide vs Narrow Transformations 
+                d) Joins 
+                e) Types 
+                f) Broadcast 
+                g) Cross Joins 
+                h) UDF 
+                i) Window functions 
+ 
+      4) Top Mistakes Developers do with Spark when Developing data intense applications.
+      5) When to choose spark rdd & sql & Streaming usecases.
